@@ -54,7 +54,7 @@ $(document).on("click", '.tag', function(){
 $('#content').html('');
 //getGifs
     let keyword =  $(this).text();
-    let gifurl = "http://api.giphy.com/v1/gifs/search?q=" + keyword  + "&api_key=RVGIvOfu1Oz8HbyVVJPkrC7GUJfIVViY&limit=50";
+    let gifurl = "https://api.giphy.com/v1/gifs/search?q=" + keyword  + "&api_key=RVGIvOfu1Oz8HbyVVJPkrC7GUJfIVViY&limit=50";
 
     $.ajax({
         url: gifurl,
